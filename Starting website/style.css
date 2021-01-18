@@ -228,7 +228,7 @@ a:hover {
 .l-bloc h2 a,
 .l-bloc h3 a,
 .l-bloc h4 a,
-.l-bloc h5 a,
+.l-bloc  a,
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
@@ -729,9 +729,7 @@ h1 {
 h4 {
     color: #333333!important;
 }
-h5 {
-    color:rgb(255, 255, 255);
-}
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -826,6 +824,7 @@ h5 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1041,4 +1040,7 @@ h5 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+h5 {
+    color:rgb(255, 255, 255);
 }
