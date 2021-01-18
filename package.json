@@ -1,19 +1,20 @@
 {
-  "name": "linondjouliana_4_07012021",
-  "version": "1.0.0",
-  "description": "optimisation",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LiyanaSC/LINONDjouliana_4_07012021.git"
-  },
-  "author": "Liyana",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LiyanaSC/LINONDjouliana_4_07012021/issues"
-  },
-  "homepage": "https://github.com/LiyanaSC/LINONDjouliana_4_07012021#readme"
+    "name": "linondjouliana_4_07012021",
+    "version": "1.0.0",
+    "description": "optimisation",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "Starting website/style.css --compressed"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LiyanaSC/LINONDjouliana_4_07012021.git"
+    },
+    "author": "Liyana",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LiyanaSC/LINONDjouliana_4_07012021/issues"
+    },
+    "homepage": "https://github.com/LiyanaSC/LINONDjouliana_4_07012021#readme"
 }
