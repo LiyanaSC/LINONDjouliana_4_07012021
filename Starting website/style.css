@@ -643,7 +643,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 p,
 label,
@@ -1043,4 +1042,9 @@ h4 {
 
 h5 {
     color: rgb(255, 255, 255);
+}
+
+.citation_client {
+    font-weight: 500;
+    font-size: larger;
 }
