@@ -539,7 +539,8 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url(https://liyanasc.github.io/LINONDjouliana_4_07012021/Starting%20website/img/la-chouette-agence-banniere.jpg)
+    background-image: url(https://liyanasc.github.io/LINONDjouliana_4_07012021/Starting%20website/img/la-chouette-agence-banniere.jpg);
+    object-fit: cover;
 }
 
 .bg-presentation {
