@@ -54,10 +54,10 @@ a:hover {
 .bg-r-edge,
 .bg-repeat,
 .bg-t-edge {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto
 }
 
 .bg-repeat {
@@ -540,7 +540,7 @@ h4 {
 
 .bg-banniere {
     background-image: url(https://liyanasc.github.io/LINONDjouliana_4_07012021/Starting%20website/img/la-chouette-agence-banniere.jpg);
-    object-fit: cover;
+    background-size: cover;
 }
 
 .bg-presentation {
