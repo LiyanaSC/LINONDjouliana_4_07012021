@@ -7,10 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale
 }
 
+* {
+    box-sizing: border-box;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: 0!important
+    outline: 0
 }
 
 a:hover {
@@ -250,7 +254,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: 0 0!important
+    background: 0 0
 }
 
 .navbar-toggle .icon-bar {
@@ -288,7 +292,7 @@ a:hover {
 }
 
 .nav>li>.dropdown a {
-    background: 0 0!important;
+    background: 0 0;
     display: block;
     padding: 14px 15px
 }
@@ -315,7 +319,7 @@ a:hover {
 }
 
 button {
-    outline: 0!important
+    outline: 0
 }
 
 .btn-rd {
@@ -330,11 +334,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important
+    font-size: 30px
 }
 
 .icon-lg {
-    font-size: 60px!important
+    font-size: 60px
 }
 
 .sm-shadow {
@@ -398,7 +402,7 @@ label,
 p {
     font-family: helvetica;
     font-weight: 400;
-    color: #000!important
+    color: #000
 }
 
 .container {
@@ -425,7 +429,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #fff!important;
+    color: #fff;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -446,7 +450,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333!important
+    color: #333
 }
 
 .med-width-whitespace {
@@ -456,11 +460,11 @@ h3 {
 }
 
 h1 {
-    color: #333!important
+    color: #333
 }
 
 h4 {
-    color: #333!important
+    color: #333
 }
 
 .icons {
@@ -469,7 +473,7 @@ h4 {
 }
 
 .white {
-    color: #fff!important
+    color: #fff
 }
 
 .portfolio-thumb {
@@ -488,7 +492,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important
+    text-decoration: underline
 }
 
 .bgc-white {
@@ -500,38 +504,38 @@ h4 {
 }
 
 .tc-white {
-    color: #f79c72!important
+    color: #fff
 }
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: #fff!important
+    color: #fff
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #fff!important
+    background: #c27956;
+    color: #fff
 }
 
 .ltc-white {
-    color: #fff!important
+    color: #fff
 }
 
 .ltc-white:hover {
-    color: #ccc!important
+    color: #ccc
 }
 
 .ltc-atomic-tangerine {
-    color: #f3976c!important
+    color: #f3976c
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important
+    color: #c27956
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important
+    color: #364577;
+    border-color: #364577
 }
 
 .bg-lines-h2-bg {
@@ -605,8 +609,8 @@ h4 {
     h5,
     h6,
     p {
-        padding-left: 10px!important;
-        padding-right: 10px!important
+        padding-left: 10px;
+        padding-right: 10px
     }
     .b-parallax {
         background-attachment: scroll
@@ -614,7 +618,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important
+        float: none
     }
     .navbar.row {
         margin-left: 0;
@@ -700,4 +704,16 @@ h5 {
 .citation_client {
     font-weight: 500;
     font-size: larger
+}
+
+.nav_contact {
+    list-style: none;
+}
+
+.lien_entete {
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    bottom: 30px;
+    right: 60px;
 }
