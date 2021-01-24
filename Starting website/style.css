@@ -410,7 +410,7 @@ p {
 }
 
 .hero-bloc-text {
-    font-size: 38px
+    font-size: 38px;
 }
 
 p {
@@ -504,7 +504,7 @@ h4 {
 }
 
 .tc-white {
-    color: #fff
+    color: #fff;
 }
 
 .btn-atomic-tangerine {
