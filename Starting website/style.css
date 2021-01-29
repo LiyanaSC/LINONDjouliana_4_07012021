@@ -153,8 +153,6 @@ a:hover {
     background: rgba(255, 255, 255, 1);
 }
 
-.ui-navbar-toggle {}
-
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
@@ -365,6 +363,8 @@ a:hover {
         position: absolute;
         top: 50%;
         right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
     }
     .nav>li .dropdown-menu a,
     .nav>li .dropdown-menu a:hover {
@@ -733,6 +733,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
@@ -995,7 +996,7 @@ h4 {
     }
     .nav-invert .navbar-toggle {
         float: left;
-        margin-left: 10px;
+        -left: 10px;
     }
     .bloc {
         padding-left: 0;
