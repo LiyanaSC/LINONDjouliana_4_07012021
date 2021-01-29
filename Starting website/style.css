@@ -878,7 +878,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: fixed;
     }
@@ -992,7 +992,6 @@ h4 {
     }
     .nav-invert .navbar-toggle {
         float: left;
-        -left: 10px;
     }
     .bloc {
         padding-left: 0;
